@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.menusitems{
+    background-color: #262626;
+    padding: 14px;
+    justify-content: center;
+    align-items: center;
+}
+.menusitems .one{
+    text-align: center;
+   font-weight: 500;
+    font-size:30px;
+    padding: 36px;
+    text-decoration: none;
+    color: #fff !important;
+}
+.menusitems .nav-link{
+   
+   
+    font-size: 16px;
+    color: #fff !important;
+    
+}
+.menusitems .nav-item:hover{
+
+    
+   
+    border-bottom: 1px solid green;   
+}
+
+.menusitems .dropdown-item{
+    color: black;
+   border: none;
+  
+    background-color: #f8fbfe;
+}
+.menusitems .dropdown-item:hover{
+    color: #09be3f !important;
+   
+}
+
+.contact .col-lg-12{
+    
+    text-align: -webkit-center;
+}
+
+.contact .col-lg-12 h1{
+    font-weight: 900;
+    font-size: 52px;
+}
+
+.contact .col-lg-12 .form-part input{
+
+    border: 1px solid #00b371;
+    background-color: white;
+    margin: 16px;
+    padding: 10px;
+}
+.contact .col-lg-12 .form-part #username{
+    width: 348px;
+}
+.contact .col-lg-12 .form-part #email{
+    width: 319px;
+}
+.contact .col-lg-12 .form-part #Subject{
+    width: 702px;
+
+}
+.contact .col-lg-12 .form-part #message{
+    margin: 16px;
+    border: 1px solid #00b371;
+    padding: 10px;
+    width: 702px;
+
+    height: 150px;
+}
+
+.contact .col-lg-12 .form-part button{
+    border: inherit;
+    border-radius: 30px;
+    width: 175px;
+    height: 60px;
+    color: rgb(255, 255, 255);
+    background-color:#00b371;
+    border: 1PXpx solid black;
+    
+}
+.contact .col-lg-12 .form-part button:hover{
+    color: rgb(230, 232, 230);
+    background-color: #00b371;
+
+}
+.contact .col-lg-12 .form-part .text-center {
+    text-align: center !important;
+} 
